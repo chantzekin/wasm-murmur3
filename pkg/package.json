@@ -1,0 +1,22 @@
+{
+  "name": "wasm-murmur3",
+  "collaborators": [
+    "chantzekin <z.chantzekin@gmail.com>"
+  ],
+  "description": "A WebAssembly implementation of the fast, non-cryptographic hash",
+  "version": "0.1.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chantzekin/wasm-murmur3"
+  },
+  "files": [
+    "wasm_murmur3_bg.wasm",
+    "wasm_murmur3.js",
+    "wasm_murmur3_bg.js",
+    "wasm_murmur3.d.ts",
+    "LICENSE_MIT"
+  ],
+  "main": "wasm_murmur3.js",
+  "types": "wasm_murmur3.d.ts"
+}
